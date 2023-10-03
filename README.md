@@ -219,8 +219,3 @@ Here is the sample output of this actor:
 	"className": "Message"
 }
 ```
-
-## Auto adder
-Once you run the telegram auto adder feature, you will start seeing members getting added to your group as shown in the screenshot
-
-![Telegram auto adder result](https://awesomescreenshot.s3.amazonaws.com/image/1021927/43174900-371db09a52a8d6385d1b752c9b372003.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230926%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230926T132117Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=236e1b29ac6568d03b5be8b1fb57b4e3afc0b163d9f6913738658bff2b1e486a)

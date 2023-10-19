@@ -1,14 +1,51 @@
 # Telegram scraper and adder
+Interested in using this scraper? Get it here: [Telegram scraper and adder](https://apify.com/curious_coder/telegram-scraper?fpr=ve081&fp_sid=github_telegram-scraper)
+## Features
+➡️ Scrape and export telegram channel or group messages
 
-Scrape any telegram group members and add them to your group
+➡️ Scrape any telegram group members
 
-Scrape and export telegram channel messages
+➡️ Add any telegram group members to your own group
+
+➡️ Use random delay and scheduling to safely grow your group day by day 
 
 https://youtu.be/j_vSazbotQ8
 
-✳️ **You might be interested in:** [Whatsapp scraper](https://apify.com/curious_coder/whatsapp-scraper) | [Discord scraper](https://apify.com/curious_coder/discord-data-scraper) | [Facebook group members scraper](https://apify.com/curious_coder/facebook-scraper) | [Other useful scrapers](https://apify.com/curious_coder)
+# Getting started
 
-Here is the sample output of this actor:
+➡️ Click on 'Try for free' button 
+
+➡️ Go to 'Input' tab and select action you want to perform
+
+➡️ Go to web.telegram.org and copy the group URL you want to use
+
+➡️ Paste them in the 'Scrape group URL' input field
+
+➡️ If you want to add members to your group, then insert your group's URL in the 'Add to group URL' field
+
+➡️ Click on 'Save and start' button
+
+The following steps required only for first time: 
+
+➡️ Go to 'Live view' tab to scan the QR code to authenticate the actor with telegram (This step is only one time)
+
+➡️ Open telegram app on your device.
+
+➡️ Go to Telegram menu -> Settings -> Devices and click on 'Add device' button and scan the QR code
+
+➡️ Copy the auth code to use it in future runs by filling 'Auth code'. If you pass auth token, you can avoid scanning QR code
+
+✳️ **You might be interested in:** [Whatsapp scraper](https://apify.com/curious_coder/whatsapp-scraper?fpr=ve081&fp_sid=github_telegram-scraper) | [Discord scraper](https://apify.com/curious_coder/discord-data-scraper?fpr=ve081&fp_sid=github_telegram-scraper) | [Facebook group members scraper](https://apify.com/curious_coder/facebook-scraper?fpr=ve081&fp_sid=github_telegram-scraper) | [Other useful scrapers](https://apify.com/curious_coder?fpr=ve081&fp_sid=github_telegram-scraper)
+
+## How to get group URL
+
+![Telegram group member scraper and auto adder - how to get group url](https://ik.imagekit.io/webscraper/Telegram%20auto%20adder%20-%20How%20to%20get%20group%20url?updatedAt=1696420161947)
+
+
+## Integrations
+
+You can use [Make](https://www.make.com/en/register?pc=growthhack) to integrate telegram scraper data to any other SaaS platform by designing your own automation flows.
+
 
 ## Group members output
 
@@ -219,3 +256,8 @@ Here is the sample output of this actor:
 	"className": "Message"
 }
 ```
+
+## Auto adder
+Once you run the telegram auto adder feature, you will start seeing members getting added to your group as shown in the screenshot
+
+![Telegram auto adder result](https://awesomescreenshot.s3.amazonaws.com/image/1021927/43174900-371db09a52a8d6385d1b752c9b372003.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230926%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230926T132117Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=236e1b29ac6568d03b5be8b1fb57b4e3afc0b163d9f6913738658bff2b1e486a)
